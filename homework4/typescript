@@ -1,0 +1,22 @@
+Script started on 2018-03-07 20:26:58-0800
+bash-4.4$ a.out
+Enter a filename to check: test1
+Balanced.
+bash-4.4$ a.out
+Enter a filename to check: test2
+Balanced.
+bash-4.4$ a.out
+Enter a filename to check: test3
+Balanced.
+bash-4.4$ a.out
+Enter a filename to check: test4
+Not balanced.
+bash-4.4$ a.out
+Enter a filename to check: test5
+Not balanced.
+bash-4.4$ a.out
+Enter a filename to check: test6
+Not balanced.
+bash-4.4$ exit
+
+Script done on 2018-03-07 20:27:25-0800

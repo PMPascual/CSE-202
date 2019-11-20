@@ -1,0 +1,32 @@
+Script started on 2018-01-28 12:17:18-0800
+bash-4.4$ make
+g++ -c Main.cpp
+g++ -c Employee.cpp
+g++ -c Staff.cpp
+g++ -o staff Main.o Employee.o Staff.o
+bash-4.4$ staff
+Add an employee? y
+Please enter employee name and salary: TestCase 1250
+Add an employee? y
+Please enter employee name and salary: Jack 3500
+Name already exists. 
+Add an employee? n
+Raise anybody's salary? y
+Enter name and percent: Amanda 10
+Raise is 500.  Raise applied.
+Raise anybody else's salary? y
+Enter name and percent: Jane 50
+Maximum raise $1000 only. Maximum raise applied.
+Raise anybody else's salary? y
+Enter name and percent: NotEmployee 10
+Couldn't find NotEmployee
+Raise anybody else's salary? n
+Jack 2000
+Jane 4000
+Mark 1000
+Kay 2000
+Amanda 5500
+TestCase 1250
+bash-4.4$ exit
+
+Script done on 2018-01-28 12:18:45-0800

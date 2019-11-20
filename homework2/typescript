@@ -1,0 +1,18 @@
+Script started on 2018-02-10 14:31:56-0800
+bash-4.4$ make
+g++ -c main.cpp
+g++ -c course.cpp
+g++ -c student.cpp
+g++ -o Student main.o course.o student.o
+bash-4.4$ Student
+Please enter course to search for: HIST101
+Kim
+Tony
+bash-4.4$ Student
+Please enter course to search for: PHYS221
+Jack
+Joe
+Kathy
+bash-4.4$ exit
+
+Script done on 2018-02-10 14:32:20-0800
