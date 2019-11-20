@@ -1,0 +1,22 @@
+Script started on 2018-02-07 21:05:19-0800
+bash-4.4$ make
+g++ -c personMain.cpp
+g++ -c person.cpp
+g++ -o Person personMain.o person.o
+bash-4.4$ Person
+Jack is already in vector. Ignoring.
+Who is Jackie's best friend? NotAPerson
+Name not found, please enter a new name: Jack
+Who is Jack's best friend? Sam
+Name not found, please enter a new name: Jackie
+Who is Amanda's best friend? Jack
+Who is Rod's best friend? Connie
+Who is Connie's best friend? Rod
+Jackie    Jack       1
+Jack      Jackie     2
+Amanda    Jack       0
+Rod       Connie     1
+Connie    Rod        1
+bash-4.4$ exit
+
+Script done on 2018-02-07 21:05:57-0800

@@ -1,0 +1,24 @@
+Script started on 2018-01-24 20:49:35-0800
+bash-4.4$ g++ vectorFinal.cpp
+bash-4.4$ a.out
+Enter a number for first vector (-1 to quit): 9
+Enter a number for first vector (-1 to quit): 4
+Enter a number for first vector (-1 to quit): 1
+Enter a number for first vector (-1 to quit): 16
+Enter a number for first vector (-1 to quit): 5
+Enter a number for first vector (-1 to quit): 8
+Enter a number for first vector (-1 to quit): 7
+Enter a number for first vector (-1 to quit): -1
+Enter a number for second vector (-1 to quit): 3
+Enter a number for second vector (-1 to quit): 5
+Enter a number for second vector (-1 to quit): 10
+Enter a number for second vector (-1 to quit): 2
+Enter a number for second vector (-1 to quit): -1
+The combined appended vector is: 9 4 1 16 5 8 7 3 5 10 2 
+The combined merged vector is: 9 3 4 5 1 10 16 2 5 8 7 
+The sorted first vector is: 1 4 5 7 8 9 16 
+The sorted second vector is: 2 3 5 10 
+The combined merged and sorted vector is: 1 2 3 4 5 5 7 8 9 10 16 
+bash-4.4$ exit
+
+Script done on 2018-01-24 20:50:04-0800

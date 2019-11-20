@@ -1,0 +1,25 @@
+Script started on 2018-02-06 21:24:04-0800
+bash-4.4$ g++ arrayLab.cpp
+bash-4.4$ a.out
+str1=abcd str2=efg
+strlen(str1)=4 strlen(str2)=3
+str1=efg
+str1=efgefg
+strcmp(str1, str2)=101
+strcmp(str2, "efh")=-1
+str2=hi
+str2=hi jkl
+bash-4.4$ rm a.out
+bash-4.4$ g++ arrayLabPointers.cpp 
+bash-4.4$ a.out
+str1=abcd str2=efg
+strlen(str1)=4 strlen(str2)=3
+str1=efg
+str1=efgefg
+strcmp(str1, str2)=101
+strcmp(str2, "efh")=-1
+str2=hi
+str2=hi jkl
+bash-4.4$ exit
+
+Script done on 2018-02-06 21:24:26-0800

@@ -1,0 +1,19 @@
+Script started on 2018-01-17 19:52:21-0800
+bash-4.4$ make
+g++ -c Bank_main.cpp
+g++ -c Bank.cpp
+g++ -c Account.cpp
+g++ -o Bank Bank_main.o Bank.o Account.o
+bash-4.4$ Bank
+Savings deposit successful.
+Invalid account.
+Checking withdrawal successful.
+Transfer from Savings successful.
+Insufficient funds in Checking. $5 penalty charged.
+Checking balance is: $125
+Savings balance is: $1010
+bash-4.4$ make clean
+rm *.o Bank
+bash-4.4$ exit
+
+Script done on 2018-01-17 19:52:33-0800
